@@ -21,8 +21,7 @@ module.exports = () => {
         title: "Webpack Plugin",
       }),
       new InjectManifest({
-        // make sure pointing to right file //
-        swSrc: "src-sw.js",
+        swSrc: "./src-sw.js",
         swDest: "service-worker.js",
       }),
       new WebpackPwaManifest({
