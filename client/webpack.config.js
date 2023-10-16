@@ -20,10 +20,12 @@ module.exports = () => {
         template: "./index.html",
         title: "Webpack Plugin",
       }),
+      // Find source for service worker file
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
+      // Create manifest.json file
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
         short_name: "Jate",
