@@ -22,10 +22,10 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "service-worker.js",
+        swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
-        name: "Jate",
+        name: "Just Another Text Editor",
         short_name: "Jate",
         description: "Text Editor",
         background_color: "#7eb4e2",
