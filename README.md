@@ -48,7 +48,7 @@ Node Dependencies:
 To run the application locally use npm install to install all node packages from the root directory. Then run a npm run start to bundle and build application and start open on port 3000. Type code into the text editor to review. To install JATE click on the install button and confirm the prompt to install an icon for the app on your desktop. <br>
 Look in the console DevTools and go to application to see manifest file, service worker, IndexedDB, and cache storage information.
 <br>
-<img src="" width='550' height='auto'><br>
+<img src="./images/main-page.png" width='700' height='auto'><br>
 
 ## License
 
